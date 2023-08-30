@@ -3,7 +3,7 @@
 
 # SOBRE
 
-[https://desafio-adam-robo.vercel.app/](https://desafio-adam-robo.vercel.app/)
+[https://desafio-adam-robo-ricardiobraga.vercel.app/](https://desafio-adam-robo-ricardiobraga.vercel.app/)
 
 Esse projeto foi feito para teste de uma vaga de frontend na empresa Adam Robo. 
 O desafio consiste em criar uma SPA (Single Page Application) de layout livre, exibindo os dados de alguma API Rest.

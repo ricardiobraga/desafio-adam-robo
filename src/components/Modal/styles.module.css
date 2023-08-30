@@ -16,7 +16,7 @@
     flex-direction: column;
     width: 60%;
     height: 30vh;
-    background-color: #dddddd;
+    background-color: #DDDDDD;
 }
 
 .modalHeader {
@@ -71,6 +71,7 @@
     width: 90%;
     height: auto;
     min-width: 370px;
+    background-color: #DDDDDD;
 
     }
 }
