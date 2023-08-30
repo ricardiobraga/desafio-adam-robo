@@ -3,28 +3,33 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 export interface CounterState {
+  id: string;
   value: number;
+  isToogle: boolean;
 }
 
 const initialState: CounterState = {
-  value: 0
+  id: '',
+  value: 0,
+  isToogle: false
 };
 
 export const counterSlice = createSlice({
-  name: 'counter',
+  name: 'toogle',
   initialState,
   reducers: {
-    increment: (state) => {
-      state.value += 1;
+    toogleON: (state) => {
+      return { ...state, isToogle: true };
     },
-    decrement: (state) => {
-      state.value -= 1;
+    toogleOFF: (state) => {
+      return { ...state, isToogle: false };
     },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload;
+
+    saveID(state, { payload }) {
+      return { ...state, id: payload };
     }
   }
 });
 
-export const { increment, decrement, incrementByAmount } = counterSlice.actions;
+export const { toogleOFF, toogleON, saveID } = counterSlice.actions;
 export default counterSlice.reducer;

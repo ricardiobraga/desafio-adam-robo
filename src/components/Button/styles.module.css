@@ -1,21 +1,4 @@
 
-.listLine {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    
-    color: var(--color-white);
-    
-    font-size: 1.6rem;
-    
-    
-    
-}
-
-.userNameContainer {
-    padding: 0 0 0 2rem;
-}
-
 .button{
     cursor: pointer;
     display: flex;
@@ -44,14 +27,3 @@
     
     
 }
-
-@media (max-width: 48rem) {
-
-    .listLine {
-      border-radius: 0;
-      padding: 0;
-      width: 100vw
-    }
-
-    }
-  

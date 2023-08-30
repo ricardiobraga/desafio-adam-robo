@@ -1,12 +1,14 @@
+import InfoButton from '../Button/InfoButton';
 import styles from './styles.module.css';
 
-import { getUsers } from '@/app/libs/getUsers';
-import InfoIcon from '@mui/icons-material/Info';
-type User = {
-  id: number;
+import { getUsers } from '@/app/libs/Controller';
+
+export type User = {
+  id: string;
   title?: string;
   firstName?: string;
   lastName?: string;
+  email?: string;
   picture?: string;
 };
 
@@ -22,9 +24,7 @@ export const UsersList = async () => {
               <div
                 className={styles.userNameContainer}
               >{`${firstName} ${lastName}`}</div>
-              <button className={styles.button}>
-                <InfoIcon /> info
-              </button>
+              <InfoButton id={id} />
             </div>
           );
         })}

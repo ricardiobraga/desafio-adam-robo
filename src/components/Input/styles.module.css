@@ -1,0 +1,74 @@
+.inputContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    gap: 1rem;
+}
+.input{ 
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    outline: none;
+    color: var(--color-purple);
+    border: none;
+    border-radius: 1rem;
+}
+
+.btnContainer{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;   
+    display: flex;
+    gap: 3rem;
+
+    }
+
+
+.btnEdit {
+    
+    
+    color: var(--color-white);
+    background-color: var(--color-darkpurple);
+    border: none;
+    font-size: 2rem;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    transition: all .3s ease;
+    border-bottom: .3rem solid var(--color-purple);
+}
+.btnDelete {
+    
+    
+    color: var(--color-white);
+    background-color: var(--color-softred);
+    border: none;
+    font-size: 2rem;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    transition: all .3s ease;
+    border-bottom: .3rem solid var(--color-purple);
+}
+
+.btnEdit:hover {
+    background-color: var(--color-purple);
+    border-bottom: .3rem solid var(--color-lightgreen);
+}
+.btnDelete:hover{
+    background-color: var(--color-purple);
+    border-bottom: .3rem solid var(--color-lightgreen);
+}
+
+@media (max-width: 48rem) {
+
+    .inputContainer{
+        flex-wrap: wrap;
+    }
+    .btnContainer{    
+    width: 90%;
+    margin-bottom: 3rem;
+
+    }
+}

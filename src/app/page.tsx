@@ -1,13 +1,19 @@
 import { UsersList } from '@/components/UserLists/UsersList';
 import styles from './page.module.css';
+import Modal from '@/components/Modal/Modal';
+import Header from '@/components/Header/Header';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>MONTANHISTAS CADASTRADOS</h1>
-      <div className={styles.listContainer}>
-        <UsersList />
-      </div>
-    </main>
+    <>
+      <Header />
+      <main className={styles.main}>
+        <div className={styles.listContainer}>
+          <UsersList />
+        </div>
+
+        <Modal />
+      </main>
+    </>
   );
 }

@@ -10,6 +10,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 :root {
   font-family: 'Montserrat', sans-serif;
   font-size: 62.5%;
@@ -17,8 +19,11 @@
   --color-lightpurple: #7C2DB8;
   --color-purple: #3D1B4D;
   --color-darkpurple: #240D36;
+  --color-verydarkpurple: #110819;
   --color-lightgreen: #00FFC2;
   --color-white: #ffffff;
+  --color-softred: #FF5151;
+
 }
 
 
@@ -34,5 +39,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 

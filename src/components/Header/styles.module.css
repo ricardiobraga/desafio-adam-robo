@@ -1,0 +1,53 @@
+
+.header {
+    position: absolute;
+    
+    top: 0;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(17, 8 ,25, .5);
+    padding: 0 3rem;
+
+}
+.logo { 
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.listTitle {
+    font-weight: 200;
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.login {
+    display: flex;
+    text-decoration: none;
+    color: var(--color-white);
+    gap: 2rem;
+}
+.login a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    transition: all .3s ease;
+}
+.login a:hover {
+    text-decoration: none;
+    color: var(--color-lightgreen);
+    
+}
+
+@media (max-width: 48rem) {
+    .header {
+        border-bottom: .1rem solid var(--color-lightgreen);
+    }
+    .listTitle {
+        display: none;
+    }
+
+}
