@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio para vaga de frontend na empresa Adam Robo
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ricardiobraga/desafio-adam-robo/blob/main/LICENSE) 
 
-## Getting Started
+# SOBRE
 
-First, run the development server:
+[https://desafio-adam-robo.vercel.app/](https://desafio-adam-robo.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Esse projeto foi feito para teste de uma vaga de frontend na empresa Adam Robo. 
+O desafio consiste em criar uma SPA (Single Page Application) de layout livre, exibindo os dados de alguma API Rest.
+Prazo para realização: 48 horas.
+
+## Requisitos:
+
+• Criar uma aplicação SPA com React.js 18 e TypeScript;
+• Implementar um layout responsivo e agradável para o usuário;
+• Consumir os dados de uma API REST e exibir os dados;
+• Utilizar a biblioteca Axios para fazer as requisições;
+• Manter o código organizado, conciso e formatado. Para formatar o código, pode ser utilizado o Prettier juntamente com o ESLint;
+• Disponibilizar o código fonte no GitHub juntamente com um guia de instalação detalhado, para que outras pessoas possam baixar e executar o projeto localmente. Esse guia deve estar no README.md do projeto;
+• Fazer o deploy da aplicação (Vercel, Netlify ou semelhantes) e deixar o link para a aplicação disponível no GitHub.
+
+# TECNOLOGIAS
+
+## Frontend
+
+- NextJS
+- ReactJs
+- TypeScript
+- EsLint
+- Prettier
+
+# INSTALAÇÃO
+## 1 - clone a aplicação
 ```
+git@github.com:ricardiobraga/desafio-adam-robo.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+## 2 - Comando para inicara o projeto
+```
+npm i
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+## 3 - Comando para rodar o projeto localmente
+```
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
